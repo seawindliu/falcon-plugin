@@ -1,0 +1,2 @@
+# mongodb monitor cron 
+* * * * * root (cd /opt/program/falcon/plugin/nginx/ && python  nginx_monitor.py  > /dev/null)

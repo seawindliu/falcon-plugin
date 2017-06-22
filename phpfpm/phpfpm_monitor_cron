@@ -1,0 +1,3 @@
+# phpfpm monitor cron 
+* * * * * root (cd /opt/program/falcon/plugin/phpfpm/ && python phpfpm_monitor.py > /dev/null)
+

@@ -1,0 +1,2 @@
+# mongodb monitor cron 
+* * * * * root (cd /opt/program/falcon/plugin/mongo/ && python  mongodb_monitor.py  > /dev/null)
